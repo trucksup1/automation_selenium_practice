@@ -3,7 +3,7 @@ public class Multiplication_table {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Here the table is of : ");
-        int num=sc.nextInt();
+        int num=sc.nextInt(); ///accepting input text
         int i=1;
         while(i<=10){
             System.out.println(num+"*"+i+"="+(num*i));
